@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  /* border: solid 2px red; */
+}
+
+body {
+  background-color: #2f2f2f;
+  font-family: "Roboto", sans-serif;
+}
+
+.main--card {
+  border-radius: 15px;
+  background-color: #1e1e1e;
+  width: 400px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header > h1 {
+  color: #fff;
+}
+
+header {
+  text-align: center;
+}
+
+header > img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+header > h2,
+main > p {
+  color: #9a9494;
+}
+
+header > h2 {
+  margin-top: -15px;
+  font-size: 18px;
+}
+
+.buttons--card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.githubBtn {
+  background-color: #0e1117;
+  color: #fff;
+}
+
+.mail-icon {
+  width: 15px;
+  padding-right: 5px;
+}
+
+.github-icon {
+  width: 15px;
+  padding-right: 5px;
+}
+
+main {
+  margin: 30px 20px 30px 20px;
+}
+
+main > h3 {
+  color: #fff;
+}
+
+p {
+  margin-top: -10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background-color: rgb(75, 75, 75);
+  border-radius: 0 0 15px 15px;
+}
+
+footer > a > img {
+  width: 35px;
+}
