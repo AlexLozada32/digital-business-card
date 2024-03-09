@@ -4,13 +4,13 @@
 }
 
 body {
-  background-color: #2f2f2f;
+  background-color: #003459;
   font-family: "Roboto", sans-serif;
 }
 
 .main--card {
   border-radius: 15px;
-  background-color: #1e1e1e;
+  background-color: #00171f;
   width: 400px;
   margin: 0 auto;
   justify-content: center;
@@ -51,21 +51,26 @@ button {
   padding: 10px 30px;
   border-radius: 10px;
   border: none;
+  display: flex;
 }
 
 .githubBtn {
-  background-color: #0e1117;
+  background-color: #007ea7;
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+
 .mail-icon {
-  width: 15px;
-  padding-right: 5px;
+  width: 25px;
+  padding-right: 10px;
 }
 
 .github-icon {
-  width: 15px;
-  padding-right: 5px;
+  width: 25px;
+  padding-right: 10px;
 }
 
 main {
@@ -86,7 +91,7 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  background-color: rgb(75, 75, 75);
+  background-color: #007ea7;
   border-radius: 0 0 15px 15px;
 }
 

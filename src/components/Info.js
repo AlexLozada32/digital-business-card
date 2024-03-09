@@ -8,7 +8,7 @@ export default function Info() {
     <header>
       <img src={myImg} alt="Alejandro Lozada" />
       <h1>Alejandro Lozada</h1>
-      <h2>Full-stack developer</h2>
+      <h2>Full-Stack developer</h2>
       <div className="buttons--card">
         <a href="mailto:alexlozada.reyes@gmail.com" target="_blank" rel="noreferrer">
           <button><img className="mail-icon" src={mailIcon} alt="mail-icon"/> Email</button>
